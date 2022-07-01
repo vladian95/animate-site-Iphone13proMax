@@ -157,6 +157,7 @@ position: absolute;
   align-items: center;
   justify-content: center;
   flex: 1;
+  background: #fff;
 }
 .phone-gallery{
   display: flex;
