@@ -12,42 +12,44 @@ h3,
 h4 {
   color: rgb(40, 40, 40);
 }
-nav{
+nav {
   position: fixed;
   width: 100vw;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 20%;
+  justify-content: space-between;
+  padding: 0% 20%;
   min-height: 8vh;
   background: rgba(255, 255, 255, 0.6);
-  z-index: 10;
   backdrop-filter: blur(10px);
+  z-index: 10;
 }
-nav, a{
-text-decoration: none;
-color: #000;
-font-size: 0.9rem;
+nav,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
 }
-.nav-links a, .nav-links button{
+.nav-links a,
+.nav-links button {
   margin-left: 2rem;
 }
-.logo{
+.logo {
   font-size: 1rem;
   font-weight: bold;
 }
-.buy-button{
+.buy-button {
   padding: 0.2rem 2rem;
   font-size: 0.6rem;
-  color: #fff;
+  color: white;
   background: #3056f5;
   border: none;
   border-radius: 1rem;
   cursor: pointer;
 }
 
-/* First page */
-.first-page{
+/*First Page*/
+.first-page {
   min-height: 100vh;
   padding: 0 20%;
   display: flex;
@@ -55,86 +57,86 @@ font-size: 0.9rem;
   align-items: center;
   justify-content: center;
 }
-.first-page-text{
+.first-page-text {
   z-index: 2;
   text-align: center;
   padding-bottom: 10rem;
 }
-.first-page-title{
+.first-page-title {
   font-size: 1.5rem;
 }
-.first-page-subtitle{
+.first-page-subtitle {
   font-size: 3rem;
 }
-.intro-video{
-position: absolute;
+
+.intro-video {
+  position: absolute;
 }
 
-/* second page */
-
-.second-page{
+/* Second Page */
+.second-page {
   min-height: 125vh;
-  color: rgb(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   display: flex;
   flex-direction: column;
   position: relative;
   justify-content: center;
 }
-.smoke-video{
+
+.smoke-video {
   position: absolute;
   height: 100%;
   width: 100vw;
   object-fit: cover;
   z-index: 1;
 }
-.second-text{
+.second-text {
   padding: 5% 30%;
   position: relative;
-  z-index: 2;
   font-size: 3.5rem;
   font-weight: bold;
+  z-index: 2;
 }
-
-/* Third page */
-
-.third-page{
+/* Third Page Phone Split*/
+.third-page {
   position: relative;
   padding: 0% 20%;
 }
-.product-text-container{
+
+.product-text-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 100vh;
-  background: #fff;
+  background: white;
 }
-.phone-size{
+.phone-size {
   font-size: 2rem;
   font-weight: bold;
 }
-.pro-size{
+.pro-size {
   text-align: right;
 }
-.max-size{
+.max-size {
   text-align: left;
 }
-.product-images{
+.product-images {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.large-phone{
+.large-phone {
   position: relative;
   transform: translateX(40%) scale(0.8);
   z-index: 1;
 }
-.small-phone{
+.small-phone {
   position: relative;
   z-index: 2;
   transform: translateX(-40%) scale(0.8);
 }
-.retina-line{
+.retina-line {
   position: absolute;
   bottom: 15%;
   left: 50%;
@@ -143,52 +145,51 @@ position: absolute;
   font-weight: bold;
 }
 
-/* forth page */
-
-.forth-page{
+/* 4th Page Slider */
+.forth-page {
   min-height: 100vh;
   display: flex;
   position: relative;
 }
-.purchase-left{
+.purchase-left {
   display: flex;
   flex-direction: column;
   overflow: hidden;
   align-items: center;
   justify-content: center;
+  background: white;
   flex: 1;
-  background: #fff;
 }
-.phone-gallery{
+.phone-gallery {
   display: flex;
   align-self: flex-start;
 }
-.phone-gallery img{
-  transform: scale(0.5);
+.phone-gallery img {
+  transform: scale(0.8);
 }
-.phone-gallery-container{
+.phone-gallery-container {
   min-width: 50vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.swatch-container{
+.swatch-container {
   text-align: center;
 }
-.swatch-container span{
+.swatch-container span {
   font-size: 0.8rem;
 }
-.swatches img{
+.swatches img {
   padding: 0.5rem 0.3rem;
   cursor: pointer;
 }
 /* Purchase right */
-.purchase-right{
+.purchase-right {
   flex: 1;
   position: relative;
-  background: #000;
+  background: black;
 }
-.purchase-right img{
+.purchase-right img {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -196,80 +197,82 @@ position: absolute;
   transform-origin: bottom;
 }
 
-/* fifth page */
-
-.fifth-page{
+/* 5th Page */
+.fifth-page {
   min-height: 100vh;
 }
-.product-video{
+.product-video {
   position: absolute;
   height: 100vh;
   width: 100%;
   object-fit: cover;
   z-index: 1;
 }
-.product-info-container{
+.product-info-container {
   position: relative;
   z-index: 2;
-  color: #fff;
+  color: white;
   display: flex;
   align-items: center;
   min-height: 100vh;
   justify-content: space-between;
   padding: 0% 10rem;
 }
-.right-info, .left-info{
+.right-info,
+.left-info {
   width: 20%;
 }
 .left-info h3,
-.right-info h3{
+.right-info h3 {
   padding: 3rem 0rem;
   color: rgb(193, 193, 193);
 }
 .left-info span,
-.right-info span{
-  font-size: 1.5rem; 
-  color: rgb(193, 193, 193);
+.right-info span {
+  font-size: 1.5rem;
+  color: rgb(210, 210, 210);
+}
+.blue {
+  z-index: 1;
 }
 
-
-/* six page */
-
-.sixth-page{
-  display: flex;
+/*  Sixth page */
+.sixth-page {
   min-height: 100vh;
   padding: 10% 20%;
   justify-content: space-between;
   position: relative;
+  display: flex;
 }
-.portrait{
+.portrait {
   height: 70vh;
 }
-.photo-title{
+.photo-title {
   font-size: 2rem;
 }
-.photo-subtitle{
+.photo-subtitle {
   font-size: 4rem;
 }
-.phone-video{
+.phone-video {
   position: absolute;
   bottom: 0;
   left: 40%;
   z-index: 2;
   transform: translate(-40%, 0%);
 }
-.phone-video img, .phone-video video{
+.phone-video img,
+.phone-video video {
   position: absolute;
 }
-.phone-video img{
+.phone-video img {
   z-index: 2;
-  bottom: 0rem;
-  left: 0rem;
-  transform: scale(0.7);
+  bottom: 0;
+  left: 0;
+  transform: scale(0.8);
 }
-.phone-video video{
+.phone-video video {
   left: 1rem;
   bottom: 1rem;
-  transform: scale(0.7);
+  transform: scale(0.82);
   border-radius: 2rem;
 }
